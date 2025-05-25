@@ -1,7 +1,7 @@
 # bot.py
 import random #Para poder seleccionar un random de nuestra lista
 from discord.ext import commands # Importamos commands de la libreria
-#El token secreto de nuestro BOT
+TOKEN = "ODY0OTk4MjU1OTU5ODY3NDAw.YO9mZw.RBPHaZjRp_A6WaH_0BuZFk4oVWk" #El token secreto de nuestro BOT
 bot = commands.Bot(command_prefix='b!') # Le Decimos con que prefijo el bot #va a empezar escuchar para saber cual es el comando
 @bot.command(name='meme') #Nombre del comando
 async def randomMeme(ctx): #Funcion del comando
